@@ -10,7 +10,7 @@ body {
 	width:100%;
 	top:0;
 	position: fixed;
-	z-index: 0;
+	
 
 }
 
@@ -33,7 +33,6 @@ body {
 	background: #4aaaa5;
 	padding-top: 10px;
 	top:0;
-	z-index: 1;
 	margin-top: 0px;
 	color: white;
 
@@ -50,12 +49,13 @@ body {
 	margin-top: 20px;
 }
 
-a {
+a, .footer  {	
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	text-decoration: none;
 
 }
 
-.about_content{
+.about_content, .contact_box, .portfolio {
 
 	width: 650px;
 	background: white;
@@ -64,13 +64,8 @@ a {
 	clear: both;
 	margin-left: 144px;
 	margin-top: 5px;
+	margin-bottom:100px;
 }
-
-
-
-
-
-
 
 .marcus {
 	width: 180px;
@@ -105,7 +100,7 @@ h3 {
 	border: solid grey 1px;
 }
 
-p {
+p, form {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	line-height: 30px;
 	padding: 10px;
@@ -129,3 +124,117 @@ p {
 	margin: 15px;
 	border: solid grey 1px;
 }
+
+.footer {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	text-align: center;
+	background: grey;
+	color:white;
+	border:2px blue;
+	padding: 20px 0px;
+	height: 20px;
+	margin-top:30px;
+
+
+}
+
+
+
+
+.port_1, .port_2, .port_3, .port_4 {
+	height: 210px;
+	width: 210px;
+	margin: 20px;
+	float:right;
+	display: inline-block;
+	padding-right:50px;
+
+}
+
+.text_1 {
+	position:absolute;
+	top:350px;
+	width:210px;
+	padding:10px 0 10px 0;
+	color:white;
+	background: #4aaaa5;
+	margin-left: 370px;
+	text-align: center;
+	font-family: Georgia;
+}
+
+.text_2{
+	position: absolute;
+	top:350px;
+	margin-left: 70px;
+	width: 210px;
+	padding:10px 0 10px 0;
+	text-align: center;
+	font-family: Georgia;
+	background: #4aaaa5;
+	color: white;
+
+}
+
+.text_3 {
+	position: absolute;
+	top:600px;
+	margin-left: 370px;
+	width: 210px;
+	padding:10px 0 10px 0;
+	padding:10px 0 10px 0;
+	text-align: center;
+	font-family: Georgia;
+	background: #4aaaa5;
+	color:white;
+
+}
+
+.text_4 {
+	position: absolute;
+	top:600px;
+	margin-left: 70px;
+	width: 210px;
+	padding:10px 0 10px 0;
+	padding:10px 0 10px 0;
+	text-align: center;
+	font-family: Georgia;
+	background: #4aaaa5;
+	color: white;
+}
+
+.contact_form {
+	padding-top: 20px;
+
+}
+
+.name_input {
+	width:620px;
+
+
+}
+
+.email_input {
+	width: 620px;
+}
+
+.submit_button {
+	color:white;
+	background: #4aaaa5;
+	font-size: 17px;
+    height: 50px;
+    width: 150px;
+    text-shadow: blueviolet 2px 2px;
+}
+
+
+
+
+
+
+
+
+
+
