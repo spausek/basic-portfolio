@@ -36,6 +36,8 @@ body {
 	top:0;
 	margin-top: 0px;
 	color: white;
+	font-size: 30px;
+
 
 
 }
@@ -63,9 +65,13 @@ a, .footer  {
 	float: left;
 	border: solid #dddddd 1px;
 	clear: both;
-	margin-left: 144px;
+	margin-left: 151px;
 	margin-top: 5px;
 	margin-bottom:100px;
+}
+
+.portfolio{
+	height: 620px;
 }
 
 .marcus {
@@ -78,6 +84,7 @@ a, .footer  {
 
 h1, h2, h3 {
 	font-family: Georgia, Times, "Times New Roman", serif;
+
 }
 
 h2 {
