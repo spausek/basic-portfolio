@@ -8,8 +8,8 @@ body {
 	border-bottom: 1px solid grey;
 	height: 55px;
 	width:100%;
+	left: 0;
 	top:0;
-	left:0;
 	position: fixed;
 	
 
@@ -36,8 +36,6 @@ body {
 	top:0;
 	margin-top: 0px;
 	color: white;
-	font-size: 30px;
-
 
 
 }
@@ -65,13 +63,9 @@ a, .footer  {
 	float: left;
 	border: solid #dddddd 1px;
 	clear: both;
-	margin-left: 151px;
+	margin-left: 144px;
 	margin-top: 5px;
 	margin-bottom:100px;
-}
-
-.portfolio{
-	height: 620px;
 }
 
 .marcus {
@@ -84,7 +78,6 @@ a, .footer  {
 
 h1, h2, h3 {
 	font-family: Georgia, Times, "Times New Roman", serif;
-
 }
 
 h2 {
@@ -136,7 +129,6 @@ p, form {
 .footer {
 	position:fixed;
 	bottom:0;
-	left:0;
 	width:100%;
 	text-align: center;
 	background: grey;
